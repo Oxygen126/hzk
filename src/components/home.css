@@ -1,0 +1,19 @@
+.am-tab-bar-bar {
+  position: relative;
+  box-sizing: border-box;
+  height: 50px;
+  border-top: 1PX solid #ddd;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  transition-duration: .2s;
+  transition-property: height bottom;
+  z-index: 100;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed !important;
+
+}
